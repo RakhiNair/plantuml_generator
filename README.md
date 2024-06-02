@@ -15,4 +15,4 @@ The complete application is deployed [here.](https://rakhinair.github.io/plantum
 
 ## Screenshot:
 
-![Screenshot of the application](screenshot.png)
+![Screenshot of the application](Screenshot.png)
