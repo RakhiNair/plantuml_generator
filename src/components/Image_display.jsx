@@ -15,7 +15,7 @@ function Image_display() {
     console.log("clicked button");
     try {
       const response = await axios.post(
-        "https://a2d6-34-125-31-98.ngrok-free.app/generate-diagram",
+        "https://6bb8-34-125-31-98.ngrok-free.app/generate-diagram",
         {
           text,
         }
