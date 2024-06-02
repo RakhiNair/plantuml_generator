@@ -1,7 +1,7 @@
 # PlantUML Generation
 
 # Task 1: Training a Large Language Model
-The Llama 3(llama-3-8b-bnb-4bit) model using Unsloth was used for training the given [Dataset](https://huggingface.co/datasets/coai/plantuml_generation). The Llama 3 model was chosen for the challenge since it is one of the latest models which was trained ~8x more data on over 15 trillion tokens. The Unsloth framework  was used for the challenge since it tackles large language model training, making it more efficient and less resource-intensive. The training was conducted on Google Colab. The trained model can be accessed [here](https://huggingface.co/RakhiNair/plantuml_generation_model)
+The Llama 3(llama-3-8b-bnb-4bit) model using Unsloth was used for training the given [Dataset](https://huggingface.co/datasets/coai/plantuml_generation). The Llama 3 model was chosen for the challenge since it is one of the latest models which was trained ~8x more data on over 15 trillion tokens. The Unsloth framework  was used for the challenge since it tackles large language model training, making it more efficient and less resource-intensive. The training was conducted on Google Colab. The trained model can be accessed [here.](https://huggingface.co/RakhiNair/plantuml_generation_model)
 
 # Task 2: Backend and Frontend Development
 
@@ -15,7 +15,7 @@ For backend development, Google Colab was utilized, given the constraints posed 
 ## Frontend Development:
 The frontend of the application was crafted with React alongside Vite, a cutting-edge build tool renowned for streamlining the development and build processes of web applications. To enhance aesthetics and efficiency, Tailwind CSS was employed, a versatile and adaptable CSS framework offering a plethora of utility classes, empowering developers to create bespoke designs seamlessly integrated into their HTML structures.
 
-The complete application is deployed on GitHub Pages and can be viewed [here.](https://rakhinair.github.io/plantuml_generator/)
+The complete application is deployed on GitHub Pages and can be viewed [here](https://rakhinair.github.io/plantuml_generator/).
 
 # Run the Application:
 
@@ -24,8 +24,9 @@ To update the deployed application on GitHub Pages or interact with the applicat
 1. Run the ipynb file:[plantuml_generator_api](https://github.com/RakhiNair/plantuml_generator/blob/main/plantuml_generator_api.ipynb)
 2. Get the public Ngrok url.
 3. Paste/modify the url provided in jsx file: [Image_display](https://github.com/RakhiNair/plantuml_generator/blob/main/src/components/Image_display.jsx) with the new URL.
-4. Run Build Script :  npm run build
-5. Deploy to GitHub Pages : npm run deploy
+4. Run Build Script :  execute the command "npm run build"
+5. Deploy to GitHub Pages : execute the command "npm run deploy"
+6. Once the deployment is complete, you can access it at the same GitHub Pages URL where the application was previously deployed.
 
 
 # Screenshot of the Application:
