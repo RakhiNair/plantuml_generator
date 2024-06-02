@@ -6,13 +6,31 @@ The llama-3-8b-bnb-4bit model using unsloth was used for training the given [Dat
 # Task 2: Backend and Frontend Development
 
 ## Backend Development: 
-The backend was built using FastAPI. The application was tested using the Ngrok public URL. Each time Ngrok creates a distinct public URL. In order to start the application, first run the ipynb file:[plantuml_generator_api](https://github.com/RakhiNair/plantuml_generator/blob/main/plantuml_generator_api.ipynb). This file starts the server and generates the public URL provided by ngrok. This url should be provided in the frontend part inorder to view the complete application.
+The backend of the application was constructed using FastAPI. Testing was facilitated through Ngrok's public URL. It's worth noting that Ngrok generates a unique public URL each time, ensuring dynamic accessibility. 
+
+To kickstart the application, begin by running the ipynb file:[plantuml_generator_api](https://github.com/RakhiNair/plantuml_generator/blob/main/plantuml_generator_api.ipynb). This file initializes the server and retrieves the dynamic public URL provided by Ngrok. Subsequently, this URL needs to be integrated or updated within the frontend component, particularly within the JSX file : [Image_display](https://github.com/RakhiNair/plantuml_generator/blob/main/src/components/Image_display.jsx), to fully experience the application. 
+
+For backend development, Google Colab was utilized, given the constraints posed by my Windows operating system. Unfortunately, I encountered challenges with package installations, particularly on Windows, which hampered the completion of development. An alternative approach could involve hosting the fine-tuned LLM (Large Language Model) on a cloud platform such as Google or AWS. However, due to financial constraints, this avenue couldn't be pursued at this time.
 
 ## Frontend Development:
-The frontend was developed using react + vite. The styling was done using  .
+The frontend of the application was crafted with React alongside Vite, a cutting-edge build tool renowned for streamlining the development and build processes of web applications. To enhance aesthetics and efficiency, we employed Tailwind CSS, a versatile and adaptable CSS framework offering a plethora of utility classes, empowering developers to create bespoke designs seamlessly integrated into their HTML structures.
 
-The complete application is deployed [here.](https://rakhinair.github.io/plantuml_generator/)
+The complete application is deployed on GitHub Pages and can be viewed [here.](https://rakhinair.github.io/plantuml_generator/)
 
-## Screenshot:
+## Run the Application:
+
+To update the deployed application on GitHub Pages or interact with the application. Please follow the below steps:
+
+1. Run the ipynb file:[plantuml_generator_api](https://github.com/RakhiNair/plantuml_generator/blob/main/plantuml_generator_api.ipynb)
+2. Get the public Ngrok url.
+3. Paste/modify the url provided in jsx file: [Image_display](https://github.com/RakhiNair/plantuml_generator/blob/main/src/components/Image_display.jsx) with the new URL.
+4. Run Build Script : \`\`\`
+npm run build
+\`\`\`
+5. Deploy to GitHub Pages : \`\`\`
+npm run deploy
+\`\`\`
+
+## Screenshot of the Application:
 
 ![Screenshot of the application](Screenshot.png)
