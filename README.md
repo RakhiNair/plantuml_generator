@@ -40,4 +40,4 @@ To update the deployed application on GitHub Pages or interact with the applicat
 
 
 
-This coding challenge was an invaluable learning experience, especially as it was my first foray into both React and FastAPI. Thank you for the opportunity – I'm eager to hear your feedback and continuously improve my skills.
+
