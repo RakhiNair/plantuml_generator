@@ -1,4 +1,4 @@
-# Plantuml Generation
+# PlantUML Generation
 
 # Task 1: Training a Large Language Model
 The Llama 3(llama-3-8b-bnb-4bit) model using Unsloth was used for training the given [Dataset](https://huggingface.co/datasets/coai/plantuml_generation). The Llama 3 model was chosen for the challenge since it is one of the latest models which was trained ~8x more data on over 15 trillion tokens. The Unsloth framework  was used for the challenge since it tackles large language model training, making it more efficient and less resource-intensive. The training was conducted on Google Colab. The trained model can be accessed [here](https://huggingface.co/RakhiNair/plantuml_generation_model)
@@ -31,5 +31,9 @@ To update the deployed application on GitHub Pages or interact with the applicat
 # Screenshot of the Application:
 
 ![Screenshot of the application](Screenshot.png)
+
+# Generated PlantUML Diagram displayed in the screenshot of the Application:
+
+![plantuml_image](plantuml_image.png)
 
 This coding challenge was an invaluable learning experience, especially as it was my first foray into both React and FastAPI. Thank you for the opportunity – I'm eager to hear your feedback and continuously improve my skills.
